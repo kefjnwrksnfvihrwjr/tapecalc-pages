@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="512" viewBox="0 0 1600 512" role="img" aria-label="Leo Apps logo wide">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1f34"/>
+      <stop offset="1" stop-color="#153252"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0.1" y1="0.1" x2="0.95" y2="0.95">
+      <stop offset="0" stop-color="#47d6ff"/>
+      <stop offset="1" stop-color="#5af2a9"/>
+    </linearGradient>
+    <linearGradient id="type" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9fdff"/>
+      <stop offset="1" stop-color="#c8f0ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="1568" height="480" rx="112" fill="url(#bg)"/>
+
+  <g transform="translate(88 64)">
+    <rect x="0" y="0" width="384" height="384" rx="92" fill="#102743"/>
+    <circle cx="192" cy="192" r="128" fill="none" stroke="url(#ring)" stroke-width="30"/>
+    <path d="M145 104v160h104" fill="none" stroke="#f3fbff" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(536 184)">
+    <text x="0" y="72" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="118" font-weight="700" fill="url(#type)">Leo Apps</text>
+    <text x="2" y="126" font-family="Avenir Next, Helvetica, Arial, sans-serif" font-size="38" font-weight="500" fill="#b7d5e5" letter-spacing="1">MAC UTILITIES WITH CLARITY</text>
+  </g>
+</svg>

@@ -92,11 +92,21 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-family: "Newsreader", Georgia, serif;
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.brand-mark {
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 0.45rem;
+  box-shadow: 0 8px 18px rgba(15, 94, 149, 0.25);
 }
 
 .topnav {
