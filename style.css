@@ -286,9 +286,26 @@ h1 {
   background: rgba(239, 154, 42, 0.24);
 }
 
+.pill-paid {
+  color: #06405f;
+  background: rgba(72, 208, 255, 0.26);
+}
+
+.pill-free {
+  color: #12592d;
+  background: rgba(112, 241, 153, 0.26);
+}
+
 .project-summary {
   margin: 0;
   color: var(--ink-soft);
+}
+
+.project-price {
+  margin: 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #0d5d95;
 }
 
 .feature-list {
