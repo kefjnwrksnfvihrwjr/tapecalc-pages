@@ -284,6 +284,8 @@ h1 {
   font-size: 0.74rem;
   font-weight: 700;
   padding: 0.3rem 0.56rem;
+  border: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42);
 }
 
 .pill-live {
@@ -299,16 +301,28 @@ h1 {
 .pill-paid {
   color: #06405f;
   background: rgba(72, 208, 255, 0.26);
+  border-color: rgba(11, 129, 198, 0.32);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.48),
+    0 0 14px rgba(34, 170, 235, 0.26);
 }
 
 .pill-free {
   color: #12592d;
   background: rgba(112, 241, 153, 0.26);
+  border-color: rgba(33, 162, 89, 0.34);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.52),
+    0 0 14px rgba(66, 210, 123, 0.26);
 }
 
 .pill-coming {
   color: #4e3800;
   background: rgba(255, 214, 102, 0.34);
+  border-color: rgba(220, 133, 28, 0.42);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.56),
+    0 0 16px rgba(240, 148, 38, 0.34);
 }
 
 .project-card-coming {
@@ -316,6 +330,9 @@ h1 {
   background:
     radial-gradient(120% 150% at 100% 0%, rgba(255, 230, 168, 0.34) 0%, rgba(255, 255, 255, 0.94) 48%),
     var(--bg-panel-solid);
+  box-shadow:
+    0 10px 28px rgba(239, 154, 42, 0.18),
+    var(--shadow-2);
 }
 
 .project-summary {
