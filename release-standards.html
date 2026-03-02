@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Release Standards | Leo Dev Studio</title>
+  <link rel="icon" type="image/png" href="./assets/leo-apps-logo-square.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <img class="brand-mark" src="./assets/leo-apps-logo-square.png" alt="">
+      <span>Leo Dev Studio</span>
+    </a>
+    <nav class="topnav">
+      <a href="./index.html#projects">Projects</a>
+      <a href="./index.html#contact">Contact</a>
+    </nav>
+    <a class="btn btn-ghost" href="./index.html">Back Home</a>
+  </header>
+
+  <main class="policy-shell reveal">
+    <h1>Release Standards</h1>
+    <p class="policy-lead">
+      How Leo Dev Studio ships Apple-platform apps with a security-first release process.
+    </p>
+
+    <h2 style="margin-top:1.2rem;">Direct macOS distribution</h2>
+    <ul class="policy-list">
+      <li>App bundles are code-signed using a valid Apple Developer ID Application certificate.</li>
+      <li>Each release is notarized through Apple's notary service before public download.</li>
+      <li>Notarization tickets are stapled so Gatekeeper validation works as expected for end users.</li>
+      <li>Release artifacts are published with versioned notes and checksum-friendly filenames.</li>
+    </ul>
+
+    <h2 style="margin-top:1.2rem;">App Store distribution</h2>
+    <ul class="policy-list">
+      <li>App Store releases are signed with Apple Distribution certificates and uploaded through App Store Connect workflows.</li>
+      <li>Builds are submitted to Apple's review pipeline and follow current App Review guidelines.</li>
+      <li>Metadata, support links, and privacy details are kept aligned with each release.</li>
+    </ul>
+
+    <h2 style="margin-top:1.2rem;">Operational controls</h2>
+    <ul class="policy-list">
+      <li>Version and build numbers are tracked per release channel.</li>
+      <li>Only signed and validated artifacts are shared publicly.</li>
+      <li>Support docs and release notes are updated when user-visible behavior changes.</li>
+    </ul>
+
+    <h2 style="margin-top:1.2rem;">Trademark & relationship notice</h2>
+    <ul class="policy-list">
+      <li>Apple, macOS, iOS, iCloud, and App Store are trademarks of Apple Inc.</li>
+      <li>Leo Dev Studio is an independent developer and is not sponsored by or affiliated with Apple Inc.</li>
+    </ul>
+
+    <p class="policy-meta">Last updated: March 2, 2026</p>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Leo Dev Studio</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
