@@ -252,7 +252,7 @@ h1 {
 .project-grid {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
 }
 
@@ -306,6 +306,18 @@ h1 {
   background: rgba(112, 241, 153, 0.26);
 }
 
+.pill-coming {
+  color: #4e3800;
+  background: rgba(255, 214, 102, 0.34);
+}
+
+.project-card-coming {
+  border-color: rgba(239, 154, 42, 0.35);
+  background:
+    radial-gradient(120% 150% at 100% 0%, rgba(255, 230, 168, 0.34) 0%, rgba(255, 255, 255, 0.94) 48%),
+    var(--bg-panel-solid);
+}
+
 .project-summary {
   margin: 0;
   color: var(--ink-soft);
@@ -316,6 +328,13 @@ h1 {
   font-size: 0.88rem;
   font-weight: 700;
   color: #0d5d95;
+}
+
+.project-note {
+  margin: 0;
+  font-size: 0.86rem;
+  color: #6a4c09;
+  font-weight: 600;
 }
 
 .feature-list {
