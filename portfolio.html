@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Leo Dev Studio portfolio: iCloud Trust, TapeCalc, EmberClip, and upcoming Apple-platform projects.">
+  <title>Portfolio | Leo Dev Studio</title>
+  <link rel="icon" type="image/png" href="./assets/leo-apps-logo-square.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="bg-orb orb-a" aria-hidden="true"></div>
+  <div class="bg-orb orb-b" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="./index.html">
+      <img class="brand-mark" src="./assets/leo-apps-logo-square.png" alt="">
+      <span>Leo Dev Studio</span>
+    </a>
+    <nav class="topnav">
+      <a href="./portfolio.html" aria-current="page">Portfolio</a>
+      <a href="./capabilities.html">Capabilities</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./policies.html">Policies</a>
+    </nav>
+    <a class="btn btn-ghost" href="./release-standards.html">Release Standards</a>
+  </header>
+
+  <main class="shell">
+    <section class="section reveal" id="public-apps">
+      <div class="section-head">
+        <h1>Portfolio</h1>
+        <p>Public apps, approved releases, and selected private software engagements.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <h3>iCloud Trust (macOS)</h3>
+            <span class="pill pill-paid">Paid</span>
+          </div>
+          <p class="project-summary">
+            iCloud Drive reliability utility with Safe-to-Close status, blocker detection, incident timeline,
+            diagnostics, and exportable proof.
+          </p>
+          <p class="project-price">Direct distribution · one-time lifetime license · free updates.</p>
+          <ul class="feature-list">
+            <li>License activation and validation workflow</li>
+            <li>Sparkle update channel with signed appcast</li>
+            <li>Dedicated support and privacy pages</li>
+          </ul>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://leodevstudio.lemonsqueezy.com/checkout/buy/0ff48843-e9bf-4995-bee0-8a82e91421de" target="_blank" rel="noreferrer">Buy Lifetime License</a>
+            <a class="btn btn-subtle" href="./icloudtrust-support.html">Support</a>
+            <a class="btn btn-subtle" href="./icloudtrust-privacy.html">Privacy</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>TapeCalc (iOS)</h3>
+            <span class="pill pill-live">Live</span>
+          </div>
+          <p class="project-summary">
+            Fast tape-style calculator focused on low-friction daily calculations and clean history workflows.
+          </p>
+          <p class="project-price">Free on the App Store.</p>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="https://apps.apple.com/app/id6759761670" target="_blank" rel="noreferrer">Get on App Store</a>
+            <a class="btn btn-subtle" href="./support.html">Support</a>
+            <a class="btn btn-subtle" href="./privacy.html">Privacy</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-coming">
+          <div class="project-top">
+            <h3>EmberClip (iOS)</h3>
+            <span class="pill pill-coming">Approved</span>
+          </div>
+          <p class="project-summary">
+            Premium clipboard manager with searchable timeline, favorites, export/import, and fast recopy actions.
+          </p>
+          <p class="project-price">Approved in App Store Connect; pending final release activation.</p>
+          <div class="card-actions">
+            <a class="btn btn-subtle" href="./emberclip-support.html">Support</a>
+            <a class="btn btn-subtle" href="./emberclip-privacy.html">Privacy</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="upcoming">
+      <div class="section-head">
+        <h2>Upcoming and Private Work</h2>
+        <p>Planned products and client-facing software not distributed publicly.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-card-coming">
+          <div class="project-top">
+            <h3>iCloud Trust (iOS)</h3>
+            <span class="pill pill-coming">Upcoming</span>
+          </div>
+          <p class="project-summary">
+            Companion version of iCloud Trust for iPhone workflows, adapted to iOS file-access and diagnostics limits.
+          </p>
+          <p class="project-note">Planned as a lower-cost companion product after macOS channel stabilization.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3>TerritorySync</h3>
+            <span class="pill pill-paid">Private Deployment</span>
+          </div>
+          <p class="project-summary">
+            Internal project for a private team that requested non-public release and confidentiality.
+          </p>
+          <ul class="feature-list">
+            <li>Not publicly downloadable</li>
+            <li>Private stakeholder workflow and rollout path</li>
+            <li>Identity and team details intentionally withheld</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Leo Dev Studio · Built for Apple platforms</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
