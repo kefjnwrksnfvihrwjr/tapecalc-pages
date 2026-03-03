@@ -354,6 +354,10 @@ h1 {
   font-weight: 600;
 }
 
+.project-note-live {
+  color: #11653a;
+}
+
 .feature-list {
   margin: 0;
   padding-left: 1.1rem;
@@ -368,6 +372,30 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+}
+
+.capability-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.capability-card {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--bg-panel-solid);
+  box-shadow: var(--shadow-2);
+  padding: 1rem;
+}
+
+.capability-card h3 {
+  font-size: 1.08rem;
+}
+
+.capability-card p {
+  margin: 0.56rem 0 0;
+  color: var(--ink-soft);
 }
 
 .about {
